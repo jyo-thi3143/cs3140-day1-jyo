@@ -32,3 +32,25 @@ function average(arr)
     return sum(arr)/arr.length;
 }
 console.log("average :", average(scores))
+function max(arr)
+{
+    let max=arr[0];
+    for(const a of arr)
+    {
+        if(a>max) max=a;
+        
+    }
+return max;
+}
+console.log("Max:",max(scores));
+
+function min(arr)
+{
+    let min=arr[0];
+    for(const a of arr)
+    {
+        if(a<min) min=a;
+}
+return min;
+}
+console.log("Min:",min(scores));
