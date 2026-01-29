@@ -31,7 +31,7 @@ function average(arr)
 {
     return sum(arr)/arr.length;
 }
-console.log("average :", average(scores))
+console.log("average (2 decimal places):", average(scores).toFixed(2));
 function max(arr)
 {
     let max=arr[0];
